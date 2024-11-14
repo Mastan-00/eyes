@@ -1,0 +1,11 @@
+import os
+import time
+y =  [ '( ͡◓ ᴗ ͡◓)','( ͡◒ ᴗ ͡◒)','( ͡◐ ᴗ ͡◐)','( ͡◑ ᴗ ͡◑)']
+
+
+eye = True
+while eye == True :
+  for x in range (len(y)):
+   print (y[x])
+   time.sleep (0.2)
+   os.system ('clear') 
